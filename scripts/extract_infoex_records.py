@@ -142,13 +142,20 @@ def analyze(path: Path, out_dir: Path, before: int, after: int):
 
 def main():
     parser = argparse.ArgumentParser(description="Extract and summarize INFOEX.DAT code-centered records.")
-    parser.add_argument("--input", default=r"D:\Program\dzh365(64)\data\SH\INFOEX.DAT")
     parser.add_argument("--out-dir", default=r"D:\Program\dzh365(64)\analysis\outputs")
     parser.add_argument("--before", type=int, default=64)
     parser.add_argument("--after", type=int, default=128)
     args = parser.parse_args()
 
-    analyze(Path(args.input), Path(args.out_dir), args.before, args.after)
+    out_dir = Path(args.out_dir)
+
+    sh_path = Path(r"D:\Program\dzh365(64)\data\sh\INFOEX.DAT")
+    sz_path = Path(r"D:\Program\dzh365(64)\data\sz\INFOEX.DAT")
+
+    if sh_path.exists():
+        analyze(sh_path, out_dir, args.before, args.after)
+    if sz_path.exists():
+        analyze(sz_path, out_dir, args.before, args.after)
 
 
 if __name__ == "__main__":

@@ -1,0 +1,39 @@
+PROBING K-LINE BLOCK COMPRESSION / PAYLOAD
+============================================================
+
+Stock 603995 | Block #1850 | Offset 0x00e74000:
+  Header: count=59, val2=8039, magic1=0x008667f2, magic2=0xdaf41eac
+  Header hex: 3b 00 00 00 67 1f 00 00 f2 67 86 00 ac 1e f4 da 72 d2 03 73 93 74 f8 c6 0f 3c da 7b fa fc 57 20
+  [INFO] Standard zlib did not match at offsets 8..24.
+  Payload[16:80] hex: 72 d2 03 73 93 74 f8 c6 0f 3c da 7b fa fc 57 20 e3 da de 29 3d fe 34 13 21 1a 9d 8d ef ef e1 9d d2 bc 04 25 27 0b c7 81 3d 0b 53 8a bc b1 60 e4 fc e0 2e b0 5d 3e 57 bd 19 a6 af 72 2f 9a 07 78
+--------------------------------------------------
+Stock 603996 | Block #1851 | Offset 0x00e76000:
+  Header: count=55, val2=8105, magic1=0x017e7df2, magic2=0xbaf78d6a
+  Header hex: 37 00 00 00 a9 1f 00 00 f2 7d 7e 01 6a 8d f7 ba 71 64 f1 c9 f0 27 f0 79 7f 85 80 11 63 57 84 03
+  [INFO] Standard zlib did not match at offsets 8..24.
+  Payload[16:80] hex: 71 64 f1 c9 f0 27 f0 79 7f 85 80 11 63 57 84 03 da df d2 d5 c6 d3 c0 a7 0e 91 7e 17 ad 30 e5 3c 4d 5f 00 02 63 00 e8 d7 e2 10 e0 51 a7 cd 3f 0b 3e da 3e 9e cf 1b fe 55 4e 2f 1e 04 ff 88 a9 f0
+--------------------------------------------------
+Stock 603997 | Block #1852 | Offset 0x00e78000:
+  Header: count=58, val2=8073, magic1=0x012e45f2, magic2=0x00f8a65f
+  Header hex: 3a 00 00 00 89 1f 00 00 f2 45 2e 01 5f a6 f8 00 13 6d e0 3b 34 30 63 44 77 5a 39 a6 74 a7 8d 83
+  [INFO] Standard zlib did not match at offsets 8..24.
+  Payload[16:80] hex: 13 6d e0 3b 34 30 63 44 77 5a 39 a6 74 a7 8d 83 e0 00 4f 6e 40 e9 ee c2 38 b7 de 08 ec 2b f2 9d 75 ee 39 e4 96 e1 db c1 90 f7 fd 6a 11 3a 0a 9e f8 ff 11 7f 17 cf 0c 3e 0c 52 08 eb 1f f2 6c d5
+--------------------------------------------------
+Stock 603998 | Block #1853 | Offset 0x00e7a000:
+  Header: count=61, val2=8090, magic1=0x00465bf2, magic2=0x1cf70197
+  Header hex: 3d 00 00 00 9a 1f 00 00 f2 5b 46 00 97 01 f7 1c f3 77 60 0c 34 64 53 e0 b0 b2 68 a9 ef d7 f7 b3
+  [INFO] Standard zlib did not match at offsets 8..24.
+  Payload[16:80] hex: f3 77 60 0c 34 64 53 e0 b0 b2 68 a9 ef d7 f7 b3 71 75 71 61 61 42 a8 6f 04 37 47 19 4f 71 bf ab fb 92 7b 8e df 0c bc 66 f8 28 ca 5c 5a 7c 00 06 5a 3b e0 00 31 bb dc ec 1c 23 f8 78 7e cf c1 92
+--------------------------------------------------
+Stock 240354 | Block #4977 | Offset 0x026e2000:
+  Header: count=99, val2=8109, magic1=0x0cc8c7f1, magic2=0x5011848b
+  Header hex: 63 00 00 00 ad 1f 00 00 f1 c7 c8 0c 8b 84 11 50 a7 38 7e 4c 5f e3 ef 91 b5 33 e0 3b 1f 80 6a dc
+  [INFO] Standard zlib did not match at offsets 8..24.
+  Payload[16:80] hex: a7 38 7e 4c 5f e3 ef 91 b5 33 e0 3b 1f 80 6a dc f2 21 cb db 98 78 31 c9 18 0b 6e 67 0a 14 7c 40 21 c2 b7 cf f6 22 06 41 11 00 58 91 0d e8 01 9b 3d c7 d3 29 a8 d2 5a 49 7e d8 a3 62 71 8b 82 84
+--------------------------------------------------
+Stock 516200 | Block #8433 | Offset 0x041e2000:
+  Header: count=102, val2=8097, magic1=0x04d01ef1, magic2=0x7741819b
+  Header hex: 66 00 00 00 a1 1f 00 00 f1 1e d0 04 9b 81 41 77 80 30 bf 5c 66 34 35 5d 2d 6e 43 60 00 93 a6 28
+  [INFO] Standard zlib did not match at offsets 8..24.
+  Payload[16:80] hex: 80 30 bf 5c 66 34 35 5d 2d 6e 43 60 00 93 a6 28 f8 57 34 83 66 fc 78 dc a3 bc 09 c6 d9 78 05 b2 bb 83 71 08 ec 52 9b c0 43 03 9e 70 0d d9 a7 09 71 0d a0 a5 af 4d 67 35 60 13 9d 52 32 7a 15 5c
+--------------------------------------------------

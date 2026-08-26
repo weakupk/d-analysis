@@ -4,9 +4,10 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 SCRIPTS = [
-    "probe_sh_infoex.py",
-    "probe_infoex_offsets.py",
-    "probe_infoex_context.py",
+    "extract_infoex_records.py",
+    "probe_dfcj_headers.py",
+    "probe_header_fields.py",
+    "export_dzh_index.py",
 ]
 
 def main():

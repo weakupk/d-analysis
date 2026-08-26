@@ -1,0 +1,14 @@
+TESTING DECOMPRESSION ALGORITHMS ON DAY_2.DAT.dat
+============================================================
+
+Block #1850 at 0x00e74000: count=59, compressed_len=8039
+
+Block #1851 at 0x00e76000: count=55, compressed_len=8105
+
+Block #1852 at 0x00e78000: count=58, compressed_len=8073
+
+Block #1853 at 0x00e7a000: count=61, compressed_len=8090
+
+Block #4977 at 0x026e2000: count=99, compressed_len=8109
+
+Block #8433 at 0x041e2000: count=102, compressed_len=8097

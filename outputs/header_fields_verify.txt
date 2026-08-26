@@ -1,0 +1,62 @@
+BLOCK HEADER STRUCTURE VERIFICATION
+============================================================
+
+=== VERIFYING HEADERS IN DAY_2.DAT.dat ===
+Size: 132685824 bytes | Blocks: 16197
+Valid Headers: 16197 / 16197 (100.0%)
+Compression Type Distribution: {'0xf0': 10, '0xf1': 5307, '0xf2': 10880}
+
+Sample First 10 Block Headers:
+Blk   | RecCount | CompSize | Type   | UncompSize | Checksum  
+-----------------------------------------------------------------
+0     | 82       | 8047     | 0xf0   | 9586927    | 0x15c3c117
+1     | 43       | 8041     | 0xf1   | 62982      | 0xf8af9a  
+2     | 47       | 8078     | 0xf1   | 19993      | 0xcff5b517
+3     | 53       | 7983     | 0xf1   | 15917      | 0xf83504  
+4     | 56       | 8089     | 0xf1   | 7745       | 0x6af63be3
+5     | 53       | 7911     | 0xf1   | 122452     | 0x77f0f233
+6     | 50       | 7989     | 0xf1   | 128616     | 0xf80af8  
+7     | 56       | 8021     | 0xf1   | 87677      | 0xb7f0a464
+8     | 53       | 8047     | 0xf1   | 26257      | 0x3bf51bfc
+9     | 44       | 8035     | 0xf1   | 122532     | 0xf8b5e0  
+
+
+=== VERIFYING HEADERS IN DAY_2.DAT.dat ===
+Size: 160067584 bytes | Blocks: 19539
+Valid Headers: 19539 / 19539 (100.0%)
+Compression Type Distribution: {'0xf0': 12, '0xf1': 5278, '0xf2': 14249}
+
+Sample First 10 Block Headers:
+Blk   | RecCount | CompSize | Type   | UncompSize | Checksum  
+-----------------------------------------------------------------
+0     | 87       | 8117     | 0xf0   | 38642      | 0x4c0f580 
+1     | 47       | 8015     | 0xf1   | 165382     | 0xbef01c83
+2     | 47       | 8121     | 0xf1   | 67097      | 0x70f63b44
+3     | 48       | 8122     | 0xf1   | 165422     | 0xf8d903  
+4     | 50       | 7995     | 0xf1   | 384575     | 0x62f00b85
+5     | 50       | 7997     | 0xf1   | 392786     | 0xe7f61971
+6     | 52       | 8126     | 0xf1   | 427622     | 0xf84f51  
+7     | 53       | 8088     | 0xf1   | 255610     | 0xd8f45591
+8     | 55       | 8077     | 0xf1   | 200335     | 0xf899dc  
+9     | 48       | 8080     | 0xf1   | 372386     | 0xc9f0235a
+
+
+=== VERIFYING HEADERS IN MIN_2.DAT.dat ===
+Size: 469905408 bytes | Blocks: 57361
+Valid Headers: 57361 / 57361 (100.0%)
+Compression Type Distribution: {'0xe0': 57361}
+
+Sample First 10 Block Headers:
+Blk   | RecCount | CompSize | Type   | UncompSize | Checksum  
+-----------------------------------------------------------------
+0     | 70       | 8063     | 0xe0   | 6001669    | 0x513d093c
+1     | 70       | 8123     | 0xe0   | 7116037    | 0xf5b8092c
+2     | 71       | 8095     | 0xe0   | 11376133   | 0x35c209fc
+3     | 69       | 8116     | 0xe0   | 5150725    | 0x3ff809fc
+4     | 71       | 8001     | 0xe0   | 9541893    | 0xd52c0afc
+5     | 71       | 8051     | 0xe0   | 11573765   | 0x59340a5c
+6     | 73       | 8076     | 0xe0   | 13605637   | 0x73d109dc
+7     | 71       | 8064     | 0xe0   | 1285381    | 0xd7ab09ec
+8     | 71       | 8054     | 0xe0   | 8101381    | 0xf360aec 
+9     | 69       | 8028     | 0xe0   | 9215749    | 0x23850a9c
+

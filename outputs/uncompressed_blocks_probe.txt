@@ -1,0 +1,21 @@
+SCANNING ALL BLOCKS IN DAY_2.DAT.dat FOR COMPRESSION TYPES
+============================================================
+
+Total Blocks in File: 16197
+
+Magic Byte Distribution at Byte 8 of Block Header:
+  0xf2: 10880 blocks (67.2%)
+  0xf1: 5307 blocks (32.8%)
+  0xf0: 10 blocks (0.1%)
+
+Non-standard / Uncompressed Blocks Found: 10
+  Block #0: count=82, comp_len=8047, m_byte=0xf0, head_hex=520000006f1f0000f0ef489217c1c315
+  Block #48: count=98, comp_len=8064, m_byte=0xf0, head_hex=62000000801f0000f0ef489217c1c315
+  Block #6095: count=53, comp_len=8041, m_byte=0xf0, head_hex=35000000691f0000f0ffc6021fc8f800
+  Block #6106: count=123, comp_len=8116, m_byte=0xf0, head_hex=7b000000b41f0000f0ef491d8b001019
+  Block #6138: count=82, comp_len=8118, m_byte=0xf0, head_hex=52000000b61f0000f0fdc8332b001000
+  Block #6168: count=77, comp_len=8085, m_byte=0xf0, head_hex=4d000000951f0000f0fe38288b001000
+  Block #6552: count=99, comp_len=8106, m_byte=0xf0, head_hex=63000000aa1f0000f0ef5a097b001000
+  Block #6573: count=127, comp_len=8069, m_byte=0xf0, head_hex=7f000000851f0000f0ef49fc5b001000
+  Block #6584: count=103, comp_len=8087, m_byte=0xf0, head_hex=67000000971f0000f0ef5a0ecb001001
+  Block #13541: count=80, comp_len=8088, m_byte=0xf0, head_hex=50000000981f0000f0fcb6001840f800

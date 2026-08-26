@@ -1,0 +1,48 @@
+INFOEX FIELD COMPARISON REPORT
+CODES: 000001, 000002, 000011, 000012, 000015, 600000, 600001
+COMPARED_OFFSETS: 16
+STABLE_OFFSETS: 0
+UNSTABLE_OFFSETS: 16
+
+SELECTED RECORDS
+- code=000001 position=28 context_start=0
+  u32_before_16=2097364 u32_at_0=808464432 u32_after_6=64618496 f32_after_16=3.3272492394060887e-38
+  strings=000001 | >n] | Pa<[P*c | P/1 | RO&
+- code=000002 position=284 context_start=220
+  u32_before_16=0 u32_at_0=808464432 u32_after_6=64618496 f32_after_16=3.3272492394060887e-38
+  strings=M]c | 000002 | u%A | 9iQ | O0](Q@ | NlI
+- code=000011 position=2300 context_start=2236
+  u32_before_16=0 u32_at_0=808464432 u32_after_6=64618496 f32_after_16=1.8005283968109575e-41
+  strings=000011 | 000012 | 000015 | DwA | 4P\ | vokN | N0M | MJE
+- code=000012 position=2312 context_start=2248
+  u32_before_16=0 u32_at_0=808464432 u32_after_6=64618496 f32_after_16=1.9081481188711034e-41
+  strings=000011 | 000012 | 000015 | DwA | 4P\ | vokN | N0M | MJE
+- code=000015 position=2324 context_start=2260
+  u32_before_16=986 u32_at_0=808464432 u32_after_6=64618496 f32_after_16=3.3272492394060887e-38
+  strings=000011 | 000012 | 000015 | DwA | 4P\ | vokN | N0M | MJE
+- code=600000 position=31540 context_start=31476
+  u32_before_16=0 u32_at_0=808464438 u32_after_6=64618496 f32_after_16=3.327165441757922e-38
+  strings=000888 | M]c | 000891 | 600000 | N&5 | 0@w- | @n4 | @Gr | ?n#;B | Kb0
+- code=600001 position=35036 context_start=34972
+  u32_before_16=0 u32_at_0=808464438 u32_after_6=64618496 f32_after_16=3.2796891695269044e-38
+  strings=600001 | @)\ | ?n4 | o=K | I*l
+
+STABLE BYTE OFFSETS (all selected codes identical)
+
+FIRST 128 OFFSETS DETAIL
+  +0000: common=00 same=False ascii=..m..6.
+  +0001: common=00 same=False ascii=.8...9.
+  +0002: common=00 same=False ascii=E......
+  +0003: common=00 same=False ascii=.IM....
+  +0004: common=00 same=False ascii=d......
+  +0005: common=00 same=False ascii=..P....
+  +0006: common=00 same=False ascii=.......
+  +0007: common=00 same=False ascii=..G....
+  +0008: common=00 same=False ascii=.....0.
+  +0009: common=00 same=False ascii=g....0.
+  +0010: common=00 same=False ascii=.....0.
+  +0011: common=00 same=False ascii=.....8.
+  +0012: common=00 same=False ascii=.....8.
+  +0013: common=00 same=False ascii=.....8.
+  +0014: common=00 same=False ascii= ......
+  +0015: common=00 same=False ascii=.H.....

@@ -1,0 +1,79 @@
+DZH BITSTREAM ALLOCATION PROBE
+============================================================
+
+--- PROBING BLOCK #1 BITSTREAM ---
+Header: count=43, comp_len=8041, type=0xf1
+Payload hex (first 32b): 0d 43 1f 2d 67 61 ee 08 ad c4 e8 6f 9f a1 00 a6 7b e3 7d 1d 1d 42 5c a0 f8 18 35 ff a1 4c e3 e0
+
+First 16 bitfields (MSB First):
+  8-bit ints: [13, 67, 31, 45, 103, 97, 238, 8, 173, 196, 232, 111, 159, 161, 0, 166]
+First 16 bitfields (LSB First):
+  8-bit ints: [13, 67, 31, 45, 103, 97, 238, 8, 173, 196, 232, 111, 159, 161, 0, 166]
+
+--------------------------------------------------
+
+--- PROBING BLOCK #2 BITSTREAM ---
+Header: count=47, comp_len=8078, type=0xf1
+Payload hex (first 32b): 72 11 71 10 64 cd 25 ae a3 7c 9d c0 09 84 33 ab 3c c9 00 e6 60 c7 89 f9 bd 32 8f 5e 80 44 02 b7
+
+First 16 bitfields (MSB First):
+  8-bit ints: [114, 17, 113, 16, 100, 205, 37, 174, 163, 124, 157, 192, 9, 132, 51, 171]
+First 16 bitfields (LSB First):
+  8-bit ints: [114, 17, 113, 16, 100, 205, 37, 174, 163, 124, 157, 192, 9, 132, 51, 171]
+
+--------------------------------------------------
+
+--- PROBING BLOCK #3 BITSTREAM ---
+Header: count=53, comp_len=7983, type=0xf1
+Payload hex (first 32b): 07 d8 5f 4a 4e 4b c6 25 9e 1d 17 b0 d5 00 02 8e 67 bc 83 90 78 7c 78 46 31 2b 02 37 45 06 61 b0
+
+First 16 bitfields (MSB First):
+  8-bit ints: [7, 216, 95, 74, 78, 75, 198, 37, 158, 29, 23, 176, 213, 0, 2, 142]
+First 16 bitfields (LSB First):
+  8-bit ints: [7, 216, 95, 74, 78, 75, 198, 37, 158, 29, 23, 176, 213, 0, 2, 142]
+
+--------------------------------------------------
+
+--- PROBING BLOCK #1850 BITSTREAM ---
+Header: count=59, comp_len=8039, type=0xf2
+Payload hex (first 32b): 72 d2 03 73 93 74 f8 c6 0f 3c da 7b fa fc 57 20 e3 da de 29 3d fe 34 13 21 1a 9d 8d ef ef e1 9d
+
+First 16 bitfields (MSB First):
+  8-bit ints: [114, 210, 3, 115, 147, 116, 248, 198, 15, 60, 218, 123, 250, 252, 87, 32]
+First 16 bitfields (LSB First):
+  8-bit ints: [114, 210, 3, 115, 147, 116, 248, 198, 15, 60, 218, 123, 250, 252, 87, 32]
+
+--------------------------------------------------
+
+--- PROBING BLOCK #1851 BITSTREAM ---
+Header: count=55, comp_len=8105, type=0xf2
+Payload hex (first 32b): 71 64 f1 c9 f0 27 f0 79 7f 85 80 11 63 57 84 03 da df d2 d5 c6 d3 c0 a7 0e 91 7e 17 ad 30 e5 3c
+
+First 16 bitfields (MSB First):
+  8-bit ints: [113, 100, 241, 201, 240, 39, 240, 121, 127, 133, 128, 17, 99, 87, 132, 3]
+First 16 bitfields (LSB First):
+  8-bit ints: [113, 100, 241, 201, 240, 39, 240, 121, 127, 133, 128, 17, 99, 87, 132, 3]
+
+--------------------------------------------------
+
+--- PROBING BLOCK #4977 BITSTREAM ---
+Header: count=99, comp_len=8109, type=0xf1
+Payload hex (first 32b): a7 38 7e 4c 5f e3 ef 91 b5 33 e0 3b 1f 80 6a dc f2 21 cb db 98 78 31 c9 18 0b 6e 67 0a 14 7c 40
+
+First 16 bitfields (MSB First):
+  8-bit ints: [167, 56, 126, 76, 95, 227, 239, 145, 181, 51, 224, 59, 31, 128, 106, 220]
+First 16 bitfields (LSB First):
+  8-bit ints: [167, 56, 126, 76, 95, 227, 239, 145, 181, 51, 224, 59, 31, 128, 106, 220]
+
+--------------------------------------------------
+
+--- PROBING BLOCK #8433 BITSTREAM ---
+Header: count=102, comp_len=8097, type=0xf1
+Payload hex (first 32b): 80 30 bf 5c 66 34 35 5d 2d 6e 43 60 00 93 a6 28 f8 57 34 83 66 fc 78 dc a3 bc 09 c6 d9 78 05 b2
+
+First 16 bitfields (MSB First):
+  8-bit ints: [128, 48, 191, 92, 102, 52, 53, 93, 45, 110, 67, 96, 0, 147, 166, 40]
+First 16 bitfields (LSB First):
+  8-bit ints: [128, 48, 191, 92, 102, 52, 53, 93, 45, 110, 67, 96, 0, 147, 166, 40]
+
+--------------------------------------------------
