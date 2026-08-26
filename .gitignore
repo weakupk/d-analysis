@@ -1,0 +1,23 @@
+# Raw local data should stay local
+/data/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# VS Code
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Temporary / cache
+*.log
+*.tmp
+
+# Optional: ignore generated outputs if they get too large
+# Remove these lines if you want to commit result files
+outputs/*.log
+outputs/*.tmp
