@@ -10,7 +10,7 @@ def load_csv(path: Path):
 
 
 def main():
-    parser = argparse.ArgumentParser(description="Merge master stock table with index maps.")
+    parser = argparse.ArgumentParser(description="Build a compact summary from master stocks and index maps.")
     parser.add_argument("--out-dir", default=r"D:\Program\dzh365(64)\analysis\outputs")
     parser.add_argument("--master", default=r"D:\Program\dzh365(64)\analysis\outputs\master_stocks.csv")
     parser.add_argument("--index-maps", default=r"D:\Program\dzh365(64)\analysis\outputs\index_maps.csv")
@@ -29,22 +29,28 @@ def main():
         code = row["code"]
         matches = by_code.get(code, [])
         if not matches:
-            merged.append({**row, "index_file_name": "", "index_offset": "", "block_no": "", "block_offset": "", "index_raw_hex": ""})
+            merged.append({
+                "code": code,
+                "market": row.get("market", ""),
+                "index_file_name": "",
+                "block_no": "",
+                "block_offset": "",
+            })
             continue
+
         for m in matches:
             merged.append({
-                **row,
+                "code": code,
+                "market": row.get("market", ""),
                 "index_file_name": m.get("file_name", ""),
-                "index_offset": m.get("index_offset", ""),
                 "block_no": m.get("block_no", ""),
                 "block_offset": m.get("block_offset", ""),
-                "index_raw_hex": m.get("raw_hex", ""),
             })
 
     out_dir.mkdir(parents=True, exist_ok=True)
-    out_path = out_dir / "master_index_merged.csv"
+    out_path = out_dir / "master_index_summary.csv"
     with open(out_path, "w", encoding="utf-8", newline="") as f:
-        fieldnames = list(merged[0].keys()) if merged else []
+        fieldnames = ["code", "market", "index_file_name", "block_no", "block_offset"]
         writer = csv.DictWriter(f, fieldnames=fieldnames)
         writer.writeheader()
         writer.writerows(merged)
