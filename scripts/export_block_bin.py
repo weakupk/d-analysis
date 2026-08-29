@@ -4,6 +4,20 @@ from pathlib import Path
 BLOCK_SIZE = 8192
 
 
+def preview_directory(base: Path, limit: int = 12) -> str:
+    if not base.exists():
+        return f"<missing directory: {base}>"
+    items = []
+    for p in sorted(base.rglob("*")):
+        if p.is_file():
+            items.append(str(p))
+        if len(items) >= limit:
+            break
+    if not items:
+        return "<no files found>"
+    return "\n".join(items)
+
+
 def find_input_file(code: str, in_file: str | None, in_dir: str | None) -> Path:
     if in_file:
         path = Path(in_file)
@@ -16,14 +30,14 @@ def find_input_file(code: str, in_file: str | None, in_dir: str | None) -> Path:
 
     base = Path(in_dir)
     if not base.exists():
-        raise SystemExit(f"Missing input directory: {base}")
+        raise SystemExit(f"Missing input directory: {base}\nDirectory preview:\n{preview_directory(base)}")
 
     patterns = [
-        f"{code}*.bin",
         f"{code}*.dat",
+        f"{code}*.bin",
         f"{code}*.raw",
-        f"*{code}*.bin",
         f"*{code}*.dat",
+        f"*{code}*.bin",
         f"*{code}*.raw",
     ]
 
@@ -34,7 +48,8 @@ def find_input_file(code: str, in_file: str | None, in_dir: str | None) -> Path:
     candidates = sorted(set(candidates))
     if not candidates:
         raise SystemExit(
-            f"No matching input files found under {base} for code={code}. "
+            f"No matching input files found under {base} for code={code}.\n"
+            f"Directory preview:\n{preview_directory(base)}\n"
             f"Try --in-file with an explicit file path."
         )
 
