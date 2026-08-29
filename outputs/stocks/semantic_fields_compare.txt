@@ -1,135 +1,267 @@
 Semantic field comparison
-codes: 300750
+codes: 600519, 000001, 000858, 300750
 
-page_ts_1                CONST present=300750
+page_ts_1                CONST present=600519,000001,000858,300750
+  600519: off=0x0000 raw=80 6f 3c 6a u32=1782345600 i32=1782345600 f32=5.69511e+25 
+  000001: off=0x0000 raw=80 6f 3c 6a u32=1782345600 i32=1782345600 f32=5.69511e+25 
+  000858: off=0x0000 raw=80 6f 3c 6a u32=1782345600 i32=1782345600 f32=5.69511e+25 
   300750: off=0x0000 raw=80 6f 3c 6a u32=1782345600 i32=1782345600 f32=5.69511e+25 
 
-page_ts_2                CONST present=300750
+page_ts_2                CONST present=600519,000001,000858,300750
+  600519: off=0x0004 raw=00 db 8c 6a u32=1787616000 i32=1787616000 f32=8.51419e+25 
+  000001: off=0x0004 raw=00 db 8c 6a u32=1787616000 i32=1787616000 f32=8.51419e+25 
+  000858: off=0x0004 raw=00 db 8c 6a u32=1787616000 i32=1787616000 f32=8.51419e+25 
   300750: off=0x0004 raw=00 db 8c 6a u32=1787616000 i32=1787616000 f32=8.51419e+25 
 
-page_zero                CONST present=300750
+page_zero                CONST present=600519,000001,000858,300750
+  600519: off=0x0008 raw=00 00 00 00 u32=0 i32=0 f32=0 zero,hhmmss
+  000001: off=0x0008 raw=00 00 00 00 u32=0 i32=0 f32=0 zero,hhmmss
+  000858: off=0x0008 raw=00 00 00 00 u32=0 i32=0 f32=0 zero,hhmmss
   300750: off=0x0008 raw=00 00 00 00 u32=0 i32=0 f32=0 zero,hhmmss
 
-page_count_a             CONST present=300750
+page_count_a             CONST present=600519,000001,000858,300750
+  600519: off=0x000c raw=2c 00 00 00 u32=44 i32=44 f32=6.16571e-44 small,hhmmss
+  000001: off=0x000c raw=2c 00 00 00 u32=44 i32=44 f32=6.16571e-44 small,hhmmss
+  000858: off=0x000c raw=2c 00 00 00 u32=44 i32=44 f32=6.16571e-44 small,hhmmss
   300750: off=0x000c raw=2c 00 00 00 u32=44 i32=44 f32=6.16571e-44 small,hhmmss
 
-page_flag_all_ones       CONST present=300750
+page_flag_all_ones       CONST present=600519,000001,000858,300750
+  600519: off=0x0010 raw=ff ff ff ff u32=4294967295 i32=-1 f32=nan all_ones
+  000001: off=0x0010 raw=ff ff ff ff u32=4294967295 i32=-1 f32=nan all_ones
+  000858: off=0x0010 raw=ff ff ff ff u32=4294967295 i32=-1 f32=nan all_ones
   300750: off=0x0010 raw=ff ff ff ff u32=4294967295 i32=-1 f32=nan all_ones
 
-page_count_b             CONST present=300750
+page_count_b             CONST present=600519,000001,000858,300750
+  600519: off=0x0014 raw=2c 00 00 00 u32=44 i32=44 f32=6.16571e-44 small,hhmmss
+  000001: off=0x0014 raw=2c 00 00 00 u32=44 i32=44 f32=6.16571e-44 small,hhmmss
+  000858: off=0x0014 raw=2c 00 00 00 u32=44 i32=44 f32=6.16571e-44 small,hhmmss
   300750: off=0x0014 raw=2c 00 00 00 u32=44 i32=44 f32=6.16571e-44 small,hhmmss
 
-page_id                  CONST present=300750
+page_id                  CONST present=600519,000001,000858,300750
+  600519: off=0x0018 raw=66 11 00 00 u32=4454 i32=4454 f32=6.24138e-42 small,hhmmss
+  000001: off=0x0018 raw=66 11 00 00 u32=4454 i32=4454 f32=6.24138e-42 small,hhmmss
+  000858: off=0x0018 raw=66 11 00 00 u32=4454 i32=4454 f32=6.24138e-42 small,hhmmss
   300750: off=0x0018 raw=66 11 00 00 u32=4454 i32=4454 f32=6.24138e-42 small,hhmmss
 
-subpage_header_1         CONST present=300750
+subpage_header_1         CONST present=600519,000001,000858,300750
+  600519: off=0x0410 raw=8d 34 66 28 u32=677786765 i32=677786765 f32=1.2779e-14 
+  000001: off=0x0410 raw=8d 34 66 28 u32=677786765 i32=677786765 f32=1.2779e-14 
+  000858: off=0x0410 raw=8d 34 66 28 u32=677786765 i32=677786765 f32=1.2779e-14 
   300750: off=0x0410 raw=8d 34 66 28 u32=677786765 i32=677786765 f32=1.2779e-14 
 
-subpage_zero             CONST present=300750
+subpage_zero             CONST present=600519,000001,000858,300750
+  600519: off=0x0414 raw=00 00 00 00 u32=0 i32=0 f32=0 zero,hhmmss
+  000001: off=0x0414 raw=00 00 00 00 u32=0 i32=0 f32=0 zero,hhmmss
+  000858: off=0x0414 raw=00 00 00 00 u32=0 i32=0 f32=0 zero,hhmmss
   300750: off=0x0414 raw=00 00 00 00 u32=0 i32=0 f32=0 zero,hhmmss
 
-subpage_id               CONST present=300750
+subpage_id               CONST present=600519,000001,000858,300750
+  600519: off=0x0418 raw=e4 5b 29 00 u32=2710500 i32=2710500 f32=3.79822e-39 
+  000001: off=0x0418 raw=e4 5b 29 00 u32=2710500 i32=2710500 f32=3.79822e-39 
+  000858: off=0x0418 raw=e4 5b 29 00 u32=2710500 i32=2710500 f32=3.79822e-39 
   300750: off=0x0418 raw=e4 5b 29 00 u32=2710500 i32=2710500 f32=3.79822e-39 
 
-subpage_type             CONST present=300750
+subpage_type             CONST present=600519,000001,000858,300750
+  600519: off=0x041c raw=09 00 00 00 u32=9 i32=9 f32=1.26117e-44 small,hhmmss
+  000001: off=0x041c raw=09 00 00 00 u32=9 i32=9 f32=1.26117e-44 small,hhmmss
+  000858: off=0x041c raw=09 00 00 00 u32=9 i32=9 f32=1.26117e-44 small,hhmmss
   300750: off=0x041c raw=09 00 00 00 u32=9 i32=9 f32=1.26117e-44 small,hhmmss
 
-subpage_flag             CONST present=300750
+subpage_flag             CONST present=600519,000001,000858,300750
+  600519: off=0x0420 raw=01 00 00 00 u32=1 i32=1 f32=1.4013e-45 small,hhmmss
+  000001: off=0x0420 raw=01 00 00 00 u32=1 i32=1 f32=1.4013e-45 small,hhmmss
+  000858: off=0x0420 raw=01 00 00 00 u32=1 i32=1 f32=1.4013e-45 small,hhmmss
   300750: off=0x0420 raw=01 00 00 00 u32=1 i32=1 f32=1.4013e-45 small,hhmmss
 
-subpage_magic            CONST present=300750
+subpage_magic            CONST present=600519,000001,000858,300750
+  600519: off=0x0424 raw=00 01 02 64 u32=1677852928 i32=1677852928 f32=9.5926e+21 
+  000001: off=0x0424 raw=00 01 02 64 u32=1677852928 i32=1677852928 f32=9.5926e+21 
+  000858: off=0x0424 raw=00 01 02 64 u32=1677852928 i32=1677852928 f32=9.5926e+21 
   300750: off=0x0424 raw=00 01 02 64 u32=1677852928 i32=1677852928 f32=9.5926e+21 
 
-subtable_count           CONST present=300750
+subtable_count           CONST present=600519,000001,000858,300750
+  600519: off=0x04a4 raw=05 00 00 00 u32=5 i32=5 f32=7.00649e-45 small,hhmmss
+  000001: off=0x04a4 raw=05 00 00 00 u32=5 i32=5 f32=7.00649e-45 small,hhmmss
+  000858: off=0x04a4 raw=05 00 00 00 u32=5 i32=5 f32=7.00649e-45 small,hhmmss
   300750: off=0x04a4 raw=05 00 00 00 u32=5 i32=5 f32=7.00649e-45 small,hhmmss
 
-subtable_ts              CONST present=300750
+subtable_ts              CONST present=600519,000001,000858,300750
+  600519: off=0x04a8 raw=00 db 8c 6a u32=1787616000 i32=1787616000 f32=8.51419e+25 
+  000001: off=0x04a8 raw=00 db 8c 6a u32=1787616000 i32=1787616000 f32=8.51419e+25 
+  000858: off=0x04a8 raw=00 db 8c 6a u32=1787616000 i32=1787616000 f32=8.51419e+25 
   300750: off=0x04a8 raw=00 db 8c 6a u32=1787616000 i32=1787616000 f32=8.51419e+25 
 
-subtable_v1              CONST present=300750
+subtable_v1              CONST present=600519,000001,000858,300750
+  600519: off=0x04ac raw=6c 03 00 00 u32=876 i32=876 f32=1.22754e-42 small,hhmmss
+  000001: off=0x04ac raw=6c 03 00 00 u32=876 i32=876 f32=1.22754e-42 small,hhmmss
+  000858: off=0x04ac raw=6c 03 00 00 u32=876 i32=876 f32=1.22754e-42 small,hhmmss
   300750: off=0x04ac raw=6c 03 00 00 u32=876 i32=876 f32=1.22754e-42 small,hhmmss
 
-subtable_v2              CONST present=300750
+subtable_v2              CONST present=600519,000001,000858,300750
+  600519: off=0x04b0 raw=75 03 00 00 u32=885 i32=885 f32=1.24015e-42 small,hhmmss
+  000001: off=0x04b0 raw=75 03 00 00 u32=885 i32=885 f32=1.24015e-42 small,hhmmss
+  000858: off=0x04b0 raw=75 03 00 00 u32=885 i32=885 f32=1.24015e-42 small,hhmmss
   300750: off=0x04b0 raw=75 03 00 00 u32=885 i32=885 f32=1.24015e-42 small,hhmmss
 
-subtable_v3              CONST present=300750
+subtable_v3              CONST present=600519,000001,000858,300750
+  600519: off=0x04b4 raw=6c 03 00 00 u32=876 i32=876 f32=1.22754e-42 small,hhmmss
+  000001: off=0x04b4 raw=6c 03 00 00 u32=876 i32=876 f32=1.22754e-42 small,hhmmss
+  000858: off=0x04b4 raw=6c 03 00 00 u32=876 i32=876 f32=1.22754e-42 small,hhmmss
   300750: off=0x04b4 raw=6c 03 00 00 u32=876 i32=876 f32=1.22754e-42 small,hhmmss
 
-subtable_v4              CONST present=300750
+subtable_v4              CONST present=600519,000001,000858,300750
+  600519: off=0x04b8 raw=74 03 00 00 u32=884 i32=884 f32=1.23875e-42 small,hhmmss
+  000001: off=0x04b8 raw=74 03 00 00 u32=884 i32=884 f32=1.23875e-42 small,hhmmss
+  000858: off=0x04b8 raw=74 03 00 00 u32=884 i32=884 f32=1.23875e-42 small,hhmmss
   300750: off=0x04b8 raw=74 03 00 00 u32=884 i32=884 f32=1.23875e-42 small,hhmmss
 
-subtable_len             CONST present=300750
+subtable_len             CONST present=600519,000001,000858,300750
+  600519: off=0x04bc raw=82 1e 0c 00 u32=794242 i32=794242 f32=1.11297e-39 
+  000001: off=0x04bc raw=82 1e 0c 00 u32=794242 i32=794242 f32=1.11297e-39 
+  000858: off=0x04bc raw=82 1e 0c 00 u32=794242 i32=794242 f32=1.11297e-39 
   300750: off=0x04bc raw=82 1e 0c 00 u32=794242 i32=794242 f32=1.11297e-39 
 
-subtable_value_1         CONST present=300750
+subtable_value_1         CONST present=600519,000001,000858,300750
+  600519: off=0x04c0 raw=71 63 9c 42 u32=1117545329 i32=1117545329 f32=78.1942 
+  000001: off=0x04c0 raw=71 63 9c 42 u32=1117545329 i32=1117545329 f32=78.1942 
+  000858: off=0x04c0 raw=71 63 9c 42 u32=1117545329 i32=1117545329 f32=78.1942 
   300750: off=0x04c0 raw=71 63 9c 42 u32=1117545329 i32=1117545329 f32=78.1942 
 
-subtable_value_2         CONST present=300750
+subtable_value_2         CONST present=600519,000001,000858,300750
+  600519: off=0x04c4 raw=0a e0 00 00 u32=57354 i32=57354 f32=8.03701e-41 hhmmss
+  000001: off=0x04c4 raw=0a e0 00 00 u32=57354 i32=57354 f32=8.03701e-41 hhmmss
+  000858: off=0x04c4 raw=0a e0 00 00 u32=57354 i32=57354 f32=8.03701e-41 hhmmss
   300750: off=0x04c4 raw=0a e0 00 00 u32=57354 i32=57354 f32=8.03701e-41 hhmmss
 
-page2_ts_1               CONST present=300750
+page2_ts_1               CONST present=600519,000001,000858,300750
+  600519: off=0x1000 raw=00 09 7d 6a u32=1786579200 i32=1786579200 f32=7.64752e+25 
+  000001: off=0x1000 raw=00 09 7d 6a u32=1786579200 i32=1786579200 f32=7.64752e+25 
+  000858: off=0x1000 raw=00 09 7d 6a u32=1786579200 i32=1786579200 f32=7.64752e+25 
   300750: off=0x1000 raw=00 09 7d 6a u32=1786579200 i32=1786579200 f32=7.64752e+25 
 
-page2_ts_2               CONST present=300750
+page2_ts_2               CONST present=600519,000001,000858,300750
+  600519: off=0x1004 raw=00 db 8c 6a u32=1787616000 i32=1787616000 f32=8.51419e+25 
+  000001: off=0x1004 raw=00 db 8c 6a u32=1787616000 i32=1787616000 f32=8.51419e+25 
+  000858: off=0x1004 raw=00 db 8c 6a u32=1787616000 i32=1787616000 f32=8.51419e+25 
   300750: off=0x1004 raw=00 db 8c 6a u32=1787616000 i32=1787616000 f32=8.51419e+25 
 
-page2_zero               CONST present=300750
+page2_zero               CONST present=600519,000001,000858,300750
+  600519: off=0x1008 raw=00 00 00 00 u32=0 i32=0 f32=0 zero,hhmmss
+  000001: off=0x1008 raw=00 00 00 00 u32=0 i32=0 f32=0 zero,hhmmss
+  000858: off=0x1008 raw=00 00 00 00 u32=0 i32=0 f32=0 zero,hhmmss
   300750: off=0x1008 raw=00 00 00 00 u32=0 i32=0 f32=0 zero,hhmmss
 
-page2_count_a            CONST present=300750
+page2_count_a            CONST present=600519,000001,000858,300750
+  600519: off=0x100c raw=09 00 00 00 u32=9 i32=9 f32=1.26117e-44 small,hhmmss
+  000001: off=0x100c raw=09 00 00 00 u32=9 i32=9 f32=1.26117e-44 small,hhmmss
+  000858: off=0x100c raw=09 00 00 00 u32=9 i32=9 f32=1.26117e-44 small,hhmmss
   300750: off=0x100c raw=09 00 00 00 u32=9 i32=9 f32=1.26117e-44 small,hhmmss
 
-page2_flag_all_ones      CONST present=300750
+page2_flag_all_ones      CONST present=600519,000001,000858,300750
+  600519: off=0x1010 raw=ff ff ff ff u32=4294967295 i32=-1 f32=nan all_ones
+  000001: off=0x1010 raw=ff ff ff ff u32=4294967295 i32=-1 f32=nan all_ones
+  000858: off=0x1010 raw=ff ff ff ff u32=4294967295 i32=-1 f32=nan all_ones
   300750: off=0x1010 raw=ff ff ff ff u32=4294967295 i32=-1 f32=nan all_ones
 
-page2_count_b            CONST present=300750
+page2_count_b            CONST present=600519,000001,000858,300750
+  600519: off=0x1014 raw=09 00 00 00 u32=9 i32=9 f32=1.26117e-44 small,hhmmss
+  000001: off=0x1014 raw=09 00 00 00 u32=9 i32=9 f32=1.26117e-44 small,hhmmss
+  000858: off=0x1014 raw=09 00 00 00 u32=9 i32=9 f32=1.26117e-44 small,hhmmss
   300750: off=0x1014 raw=09 00 00 00 u32=9 i32=9 f32=1.26117e-44 small,hhmmss
 
-page2_id                 CONST present=300750
+page2_id                 CONST present=600519,000001,000858,300750
+  600519: off=0x1018 raw=d6 03 00 00 u32=982 i32=982 f32=1.37608e-42 small,hhmmss
+  000001: off=0x1018 raw=d6 03 00 00 u32=982 i32=982 f32=1.37608e-42 small,hhmmss
+  000858: off=0x1018 raw=d6 03 00 00 u32=982 i32=982 f32=1.37608e-42 small,hhmmss
   300750: off=0x1018 raw=d6 03 00 00 u32=982 i32=982 f32=1.37608e-42 small,hhmmss
 
-subpage2_header_1        CONST present=300750
+subpage2_header_1        CONST present=600519,000001,000858,300750
+  600519: off=0x1410 raw=59 4b e0 80 u32=2162183001 i32=-2132784295 f32=-2.05982e-38 
+  000001: off=0x1410 raw=59 4b e0 80 u32=2162183001 i32=-2132784295 f32=-2.05982e-38 
+  000858: off=0x1410 raw=59 4b e0 80 u32=2162183001 i32=-2132784295 f32=-2.05982e-38 
   300750: off=0x1410 raw=59 4b e0 80 u32=2162183001 i32=-2132784295 f32=-2.05982e-38 
 
-subpage2_zero            CONST present=300750
+subpage2_zero            CONST present=600519,000001,000858,300750
+  600519: off=0x1414 raw=00 00 00 00 u32=0 i32=0 f32=0 zero,hhmmss
+  000001: off=0x1414 raw=00 00 00 00 u32=0 i32=0 f32=0 zero,hhmmss
+  000858: off=0x1414 raw=00 00 00 00 u32=0 i32=0 f32=0 zero,hhmmss
   300750: off=0x1414 raw=00 00 00 00 u32=0 i32=0 f32=0 zero,hhmmss
 
-subpage2_id              CONST present=300750
+subpage2_id              CONST present=600519,000001,000858,300750
+  600519: off=0x1418 raw=42 5c 29 00 u32=2710594 i32=2710594 f32=3.79835e-39 
+  000001: off=0x1418 raw=42 5c 29 00 u32=2710594 i32=2710594 f32=3.79835e-39 
+  000858: off=0x1418 raw=42 5c 29 00 u32=2710594 i32=2710594 f32=3.79835e-39 
   300750: off=0x1418 raw=42 5c 29 00 u32=2710594 i32=2710594 f32=3.79835e-39 
 
-subpage2_type            CONST present=300750
+subpage2_type            CONST present=600519,000001,000858,300750
+  600519: off=0x141c raw=0f 00 00 00 u32=15 i32=15 f32=2.10195e-44 small,hhmmss
+  000001: off=0x141c raw=0f 00 00 00 u32=15 i32=15 f32=2.10195e-44 small,hhmmss
+  000858: off=0x141c raw=0f 00 00 00 u32=15 i32=15 f32=2.10195e-44 small,hhmmss
   300750: off=0x141c raw=0f 00 00 00 u32=15 i32=15 f32=2.10195e-44 small,hhmmss
 
-subpage2_flag            CONST present=300750
+subpage2_flag            CONST present=600519,000001,000858,300750
+  600519: off=0x1420 raw=01 00 00 00 u32=1 i32=1 f32=1.4013e-45 small,hhmmss
+  000001: off=0x1420 raw=01 00 00 00 u32=1 i32=1 f32=1.4013e-45 small,hhmmss
+  000858: off=0x1420 raw=01 00 00 00 u32=1 i32=1 f32=1.4013e-45 small,hhmmss
   300750: off=0x1420 raw=01 00 00 00 u32=1 i32=1 f32=1.4013e-45 small,hhmmss
 
-subpage2_magic           CONST present=300750
+subpage2_magic           CONST present=600519,000001,000858,300750
+  600519: off=0x1424 raw=00 01 02 64 u32=1677852928 i32=1677852928 f32=9.5926e+21 
+  000001: off=0x1424 raw=00 01 02 64 u32=1677852928 i32=1677852928 f32=9.5926e+21 
+  000858: off=0x1424 raw=00 01 02 64 u32=1677852928 i32=1677852928 f32=9.5926e+21 
   300750: off=0x1424 raw=00 01 02 64 u32=1677852928 i32=1677852928 f32=9.5926e+21 
 
-subtable2_count          CONST present=300750
+subtable2_count          CONST present=600519,000001,000858,300750
+  600519: off=0x14a4 raw=05 00 00 00 u32=5 i32=5 f32=7.00649e-45 small,hhmmss
+  000001: off=0x14a4 raw=05 00 00 00 u32=5 i32=5 f32=7.00649e-45 small,hhmmss
+  000858: off=0x14a4 raw=05 00 00 00 u32=5 i32=5 f32=7.00649e-45 small,hhmmss
   300750: off=0x14a4 raw=05 00 00 00 u32=5 i32=5 f32=7.00649e-45 small,hhmmss
 
-subtable2_ts             CONST present=300750
+subtable2_ts             CONST present=600519,000001,000858,300750
+  600519: off=0x14a8 raw=00 db 8c 6a u32=1787616000 i32=1787616000 f32=8.51419e+25 
+  000001: off=0x14a8 raw=00 db 8c 6a u32=1787616000 i32=1787616000 f32=8.51419e+25 
+  000858: off=0x14a8 raw=00 db 8c 6a u32=1787616000 i32=1787616000 f32=8.51419e+25 
   300750: off=0x14a8 raw=00 db 8c 6a u32=1787616000 i32=1787616000 f32=8.51419e+25 
 
-subtable2_v1             CONST present=300750
+subtable2_v1             CONST present=600519,000001,000858,300750
+  600519: off=0x14ac raw=66 02 00 00 u32=614 i32=614 f32=8.60397e-43 small,hhmmss
+  000001: off=0x14ac raw=66 02 00 00 u32=614 i32=614 f32=8.60397e-43 small,hhmmss
+  000858: off=0x14ac raw=66 02 00 00 u32=614 i32=614 f32=8.60397e-43 small,hhmmss
   300750: off=0x14ac raw=66 02 00 00 u32=614 i32=614 f32=8.60397e-43 small,hhmmss
 
-subtable2_v2             CONST present=300750
+subtable2_v2             CONST present=600519,000001,000858,300750
+  600519: off=0x14b0 raw=6c 02 00 00 u32=620 i32=620 f32=8.68805e-43 small,hhmmss
+  000001: off=0x14b0 raw=6c 02 00 00 u32=620 i32=620 f32=8.68805e-43 small,hhmmss
+  000858: off=0x14b0 raw=6c 02 00 00 u32=620 i32=620 f32=8.68805e-43 small,hhmmss
   300750: off=0x14b0 raw=6c 02 00 00 u32=620 i32=620 f32=8.68805e-43 small,hhmmss
 
-subtable2_v3             CONST present=300750
+subtable2_v3             CONST present=600519,000001,000858,300750
+  600519: off=0x14b4 raw=63 02 00 00 u32=611 i32=611 f32=8.56193e-43 small,hhmmss
+  000001: off=0x14b4 raw=63 02 00 00 u32=611 i32=611 f32=8.56193e-43 small,hhmmss
+  000858: off=0x14b4 raw=63 02 00 00 u32=611 i32=611 f32=8.56193e-43 small,hhmmss
   300750: off=0x14b4 raw=63 02 00 00 u32=611 i32=611 f32=8.56193e-43 small,hhmmss
 
-subtable2_v4             CONST present=300750
+subtable2_v4             CONST present=600519,000001,000858,300750
+  600519: off=0x14b8 raw=66 02 00 00 u32=614 i32=614 f32=8.60397e-43 small,hhmmss
+  000001: off=0x14b8 raw=66 02 00 00 u32=614 i32=614 f32=8.60397e-43 small,hhmmss
+  000858: off=0x14b8 raw=66 02 00 00 u32=614 i32=614 f32=8.60397e-43 small,hhmmss
   300750: off=0x14b8 raw=66 02 00 00 u32=614 i32=614 f32=8.60397e-43 small,hhmmss
 
-subtable2_len            CONST present=300750
+subtable2_len            CONST present=600519,000001,000858,300750
+  600519: off=0x14bc raw=e4 83 26 00 u32=2524132 i32=2524132 f32=3.53706e-39 
+  000001: off=0x14bc raw=e4 83 26 00 u32=2524132 i32=2524132 f32=3.53706e-39 
+  000858: off=0x14bc raw=e4 83 26 00 u32=2524132 i32=2524132 f32=3.53706e-39 
   300750: off=0x14bc raw=e4 83 26 00 u32=2524132 i32=2524132 f32=3.53706e-39 
 
-subtable2_value_1        CONST present=300750
+subtable2_value_1        CONST present=600519,000001,000858,300750
+  600519: off=0x14c0 raw=56 bc c8 45 u32=1170783318 i32=1170783318 f32=6423.54 
+  000001: off=0x14c0 raw=56 bc c8 45 u32=1170783318 i32=1170783318 f32=6423.54 
+  000858: off=0x14c0 raw=56 bc c8 45 u32=1170783318 i32=1170783318 f32=6423.54 
   300750: off=0x14c0 raw=56 bc c8 45 u32=1170783318 i32=1170783318 f32=6423.54 
 
-subtable2_value_2        CONST present=300750
+subtable2_value_2        CONST present=600519,000001,000858,300750
+  600519: off=0x14c4 raw=3f 2a 02 00 u32=141887 i32=141887 f32=1.98826e-40 hhmmss
+  000001: off=0x14c4 raw=3f 2a 02 00 u32=141887 i32=141887 f32=1.98826e-40 hhmmss
+  000858: off=0x14c4 raw=3f 2a 02 00 u32=141887 i32=141887 f32=1.98826e-40 hhmmss
   300750: off=0x14c4 raw=3f 2a 02 00 u32=141887 i32=141887 f32=1.98826e-40 hhmmss
 

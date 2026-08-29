@@ -71,7 +71,7 @@ def pick_value(row: dict):
 
 def main():
     parser = argparse.ArgumentParser(description="Compare semantic fields across multiple stocks.")
-    parser.add_argument("--codes", required=True, help="Comma-separated stock codes")
+    parser.add_argument("--code", action="append", required=True, help="Repeatable stock code, e.g. --code 600519 --code 000001")
     parser.add_argument(
         "--in-dir",
         default=r"D:\Program\dzh365(64)\analysis\outputs\stocks",
@@ -82,7 +82,7 @@ def main():
     )
     args = parser.parse_args()
 
-    codes = [c.strip() for c in args.codes.split(",") if c.strip()]
+    codes = [c.strip() for c in args.code if c and c.strip()]
     print("codes:", codes)
 
     in_dir = Path(args.in_dir)
@@ -109,6 +109,7 @@ def main():
         values = [v for v in per_stock.values() if v is not None]
         unique_u32 = sorted({v["u32"] for v in values if v["u32"] is not None})
         unique_raw = sorted({v["raw_hex"] for v in values if v["raw_hex"] is not None})
+
         comparison["fields"].append(
             {
                 "field": field,
