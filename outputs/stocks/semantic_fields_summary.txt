@@ -1,0 +1,129 @@
+Semantic fields summary
+codes: 600519, 000001, 000858, 300750, 601318, 601398, 601857
+total_fields: 44
+constant_u32_fields: 44
+constant_raw_fields: 44
+variable_fields: 0
+fully_present_fields: 44
+partially_missing_fields: 0
+fully_missing_fields: 0
+
+Presence distribution (number of stocks with field present):
+  7: 44
+
+Unique u32 distribution (field -> unique u32 values):
+  1: 44
+
+Most variable fields:
+  page2_count_a            u32=1 raw=1
+  page2_count_b            u32=1 raw=1
+  page2_flag_all_ones      u32=1 raw=1
+  page2_id                 u32=1 raw=1
+  page2_ts_1               u32=1 raw=1
+  page2_ts_2               u32=1 raw=1
+  page2_zero               u32=1 raw=1
+  page_count_a             u32=1 raw=1
+  page_count_b             u32=1 raw=1
+  page_flag_all_ones       u32=1 raw=1
+  page_id                  u32=1 raw=1
+  page_ts_1                u32=1 raw=1
+  page_ts_2                u32=1 raw=1
+  page_zero                u32=1 raw=1
+  subpage2_flag            u32=1 raw=1
+  subpage2_header_1        u32=1 raw=1
+  subpage2_id              u32=1 raw=1
+  subpage2_magic           u32=1 raw=1
+  subpage2_type            u32=1 raw=1
+  subpage2_zero            u32=1 raw=1
+
+Constant u32 fields:
+  page_ts_1
+  page_ts_2
+  page_zero
+  page_count_a
+  page_flag_all_ones
+  page_count_b
+  page_id
+  subpage_header_1
+  subpage_zero
+  subpage_id
+  subpage_type
+  subpage_flag
+  subpage_magic
+  subtable_count
+  subtable_ts
+  subtable_v1
+  subtable_v2
+  subtable_v3
+  subtable_v4
+  subtable_len
+  subtable_value_1
+  subtable_value_2
+  page2_ts_1
+  page2_ts_2
+  page2_zero
+  page2_count_a
+  page2_flag_all_ones
+  page2_count_b
+  page2_id
+  subpage2_header_1
+  subpage2_zero
+  subpage2_id
+  subpage2_type
+  subpage2_flag
+  subpage2_magic
+  subtable2_count
+  subtable2_ts
+  subtable2_v1
+  subtable2_v2
+  subtable2_v3
+  subtable2_v4
+  subtable2_len
+  subtable2_value_1
+  subtable2_value_2
+
+Constant raw fields:
+  page_ts_1
+  page_ts_2
+  page_zero
+  page_count_a
+  page_flag_all_ones
+  page_count_b
+  page_id
+  subpage_header_1
+  subpage_zero
+  subpage_id
+  subpage_type
+  subpage_flag
+  subpage_magic
+  subtable_count
+  subtable_ts
+  subtable_v1
+  subtable_v2
+  subtable_v3
+  subtable_v4
+  subtable_len
+  subtable_value_1
+  subtable_value_2
+  page2_ts_1
+  page2_ts_2
+  page2_zero
+  page2_count_a
+  page2_flag_all_ones
+  page2_count_b
+  page2_id
+  subpage2_header_1
+  subpage2_zero
+  subpage2_id
+  subpage2_type
+  subpage2_flag
+  subpage2_magic
+  subtable2_count
+  subtable2_ts
+  subtable2_v1
+  subtable2_v2
+  subtable2_v3
+  subtable2_v4
+  subtable2_len
+  subtable2_value_1
+  subtable2_value_2
